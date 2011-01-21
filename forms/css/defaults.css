@@ -1,0 +1,157 @@
+/*
+	Defaults stylesheet for forms
+	Media: screen, projection
+	Author: Yoni De Beule
+	        Johan Ronsse
+
+*/
+
+body, form, ol, ul, dl, li, dt, dd, td, th ,tr, h1, h2, h3, h4, h5, h6, p, pre, blockquote, address { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+img { border-bottom; }
+fieldset { margin: 0; padding: 0; border: 0; }
+input, select, textarea { font-size: 100%; vertical-align: middle; }
+table { border-collapse: collapse; border-spacing: 0; empty-cells: show; }
+th { text-align: left; }
+a:focus { overflow: hidden; }
+
+/*
+	Page typography, text styles, structure and layout
+*/
+
+body {
+	font-size: 13px;
+	line-height: 1.5;
+	font-family: Arial, sans-serif;
+	color: #444;
+	padding-top: 40px;
+}
+
+input, textarea, select {
+	font-family: Arial, sans-serif;
+}
+
+	/* Clearfix */
+
+	.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.ie6 .clearfix, .ie7 .clearfix { zoom: 1; }
+
+	/* Typography and text styles */
+
+	p {
+		padding: 0 0 12px 0;
+	}
+
+	strong, h1, h2, h3, h4 {
+		font-weight: 700;
+	}
+
+	h1, h2, h3 {
+		line-height: 1.2;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+
+	h1 a, h2 a, h3 a, h4 a {
+		border: 0;
+	}
+
+	h1, h2, h3, h4 {
+		padding-bottom: 12px;
+		color: #000;
+	}
+
+	/* Links */
+
+	a {
+		text-decoration: none;
+		border-bottom: 1px solid #ABABFF;
+		color: #0000FF;
+	}
+
+	a:link {
+		border-color: #ABABFF;
+		color: #0000FF;
+	}
+
+	a:visited {
+		border-color: #D5ABD5;
+		color: #800080;
+	}
+
+	a:hover,
+	a:active,
+	a:focus {
+		border-color: #0000FF;
+		color: #0000FF;
+	}
+
+	/* Defaults */
+
+	.content ul,
+	.content ol {
+		padding: 0 0 12px 24px;
+	}
+
+	.content ul {
+		list-style: disc;
+	}
+
+	.content ol {
+		list-style-type: decimal;
+	}
+
+	.content ul ul,
+	.content ol ul,
+	.content ol ol {
+		padding-bottom: 0;
+	}
+
+	.content ol ol {
+		list-style: upper-roman;
+	}
+
+	.content ol ol ol {
+		list-style: lower-roman;
+	}
+
+	code {
+		font: 11px/1.2 Consolas, Monaco, "Courier New", monospace;
+	}
+
+	hr {
+		border: none;
+		border-top: 1px solid #DDD;
+		padding: 0;
+	}
+
+	div.hr {
+		border-bottom: 1px solid #DDD;
+		margin: 0 0 12px 0;
+	}
+
+		div.hr hr {
+			display: none;
+		}
+
+	/* Mod */
+
+	.mod {
+		padding-bottom: 24px;
+	}
+
+		.hd {
+			border-bottom: 1px solid #DDD;
+			margin-bottom: 12px;
+		}
+
+			.hd * {
+				font-size: 18px;
+				padding-bottom: 6px;
+			}
+
+	/* Page structure and layout */
+
+	.container {
+		width: 620px;
+		margin: 0 auto;
+	}

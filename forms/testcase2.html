@@ -1,0 +1,1216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+
+	<title>Forms</title>
+
+	<link rel="stylesheet" media="screen" href="css/defaults.css" />
+	<link rel="stylesheet" media="screen" href="css/forms.css" />
+	<link rel="stylesheet" media="screen" href="css/buttons.css" />
+	<link rel="stylesheet" media="screen" href="css/messages.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="mod">
+			<div class="inner">
+				<div class="hd">
+					<h3>Form element test cases with class horizontal</h3>
+				</div>
+				<div class="bd">
+					<form action="" method="post" class="horizontal">
+						<fieldset class="visibleFieldset">
+							<legend>Fields</legend>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" value="lorem ipsum dolor" />
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" value="lorem ipsum dolor" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" value="lorem ipsum dolor" disabled="disabled" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="errorArea">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" value="lorem ipsum dolor" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</p>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Fields class bigInput</legend>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" />
+							</p>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" disabled="disabled" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="bigInput errorArea">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<input type="text" name="" class="inputText" />
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</p>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Textareas</legend>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<textarea class="textarea" rows="5" cols="30" name="">Lorem ipsum</textarea>
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<textarea class="textarea" rows="5" cols="30" name="">Lorem ipsum</textarea>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<textarea class="textarea" rows="5" cols="30" name="" disabled="disabled">Lorem ipsum</textarea>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="errorArea">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<textarea class="textarea" rows="5" cols="30" name="">Lorem ipsum</textarea>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</p>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Selects</legend>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p>
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="" disabled="disabled">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="errorArea">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</p>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Selects class bigInput</legend>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+							</p>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="bigInput">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="" disabled="disabled">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</p>
+							<p class="bigInput errorArea">
+								<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+								<select size="1" class="select" name="">
+									<option value=""></option>
+									<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+								</select>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</p>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Floating field blocks</legend>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+							</div>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Floating field blocks</legend>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="tinyInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="tinyInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="tinyInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="tinyInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+							</div>
+							<div class="alignBlocks">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+							</div>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Floating fields</legend>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" disabled="disabled" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" disabled="disabled" />
+								</p>
+							</div>
+							<div class="alignFields">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput errorArea">
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" disabled="disabled" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" disabled="disabled" />
+								</p>
+								<p class="tinyInput">
+									<input type="text" name="" class="inputText" disabled="disabled" />
+								</p>
+								<p class="tinyInput">
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="tinyInput errorArea">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput errorArea">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput errorArea">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="tinyInput errorArea">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<input type="text" name="" class="inputText" />
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p>
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="alignFields">
+								<p class="errorArea">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+									<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									<span class="inlineError">This field is required.</span>
+								</p>
+								<p class="smallInput errorArea">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p class="smallInput errorArea">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Radio buttons</legend>
+							<div class="inputList">
+								<p class="label">Lorem<abbr title="Required field">*</abbr></p>
+								<ul>
+									<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est. Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est.</label></li>
+									<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est. Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est.</label></li>
+									<li><label><input type="radio" class="inputRadio" value="dolor" name="" />Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est. Nulla dui purus, eleifend vel, consequat non, dictum porta, nulla. Duis ante mi, laoreet ut, commodo eleifend, cursus nec, lorem. Aenean eu est.</label></li>
+								</ul>
+							</div>
+							<div class="inputList">
+								<p class="label">Lorem<abbr title="Required field">*</abbr></p>
+								<ul>
+									<li><label><input type="checkbox" class="inputCheckbox" value="lorem ipsum dolor" name="" />lorem</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="ipsum" name="" />ipsum</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="dolor" name="" />dolor</label></li>
+								</ul>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="inputList">
+								<p class="label">Lorem<abbr title="Required field">*</abbr></p>
+								<ul>
+									<li><label><input type="checkbox" class="inputCheckbox" value="lorem ipsum dolor" name="" disabled="disabled" />lorem</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="ipsum" name="" disabled="disabled" />ipsum</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="dolor" name="" disabled="disabled" />dolor</label></li>
+								</ul>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="inputList errorArea">
+								<p class="label">Lorem<abbr title="Required field">*</abbr></p>
+								<ul>
+									<li><label><input type="checkbox" class="inputCheckbox" value="lorem ipsum dolor" name="" />lorem</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="ipsum" name="" />ipsum</label></li>
+									<li><label><input type="checkbox" class="inputCheckbox" value="dolor" name="" />dolor</label></li>
+								</ul>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Oneliners forms</legend>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p>
+									<input type="submit" class="inputSubmit" name="" value="Send" />
+								</p>
+							</div>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p>
+									<input type="submit" class="inputSubmit" name="" value="Send" />
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled"/>
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled"/>
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p>
+									<input type="submit" class="inputSubmit disabledButton" name="" value="Send" disabled="disabled" />
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner errorArea">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<p class="smallInput">
+									<select size="1" class="select" name="" >
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<p>
+									<input type="submit" class="inputSubmit" name="" value="Send" />
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</div>
+							<div class="oneLiner">
+								<div class="inputList firstChild">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+							</div>
+							<div class="oneLiner">
+								<div class="inputList firstChild">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner">
+								<div class="inputList firstChild">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" disabled="disabled" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" disabled="disabled" />Vrouw</label></li>
+									</ul>
+								</div>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner errorArea">
+								<div class="inputList firstChild">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</div>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<div class="inputList">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+								<p class="smallInput">
+									<select size="1" class="select" name="" >
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+							</div>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<div class="inputList">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+								<p class="smallInput">
+									<select size="1" class="select" name="" >
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" disabled="disabled"/>
+								</p>
+								<div class="inputList">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" disabled="disabled" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" disabled="disabled" />Vrouw</label></li>
+									</ul>
+								</div>
+								<p class="smallInput">
+									<select size="1" class="select" name="" disabled="disabled">
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+							</div>
+							<div class="oneLiner errorArea">
+								<p class="firstChild">
+									<label>Lorem ipsum<abbr title="Required field">*</abbr></label>
+									<input type="text" name="" class="inputText" />
+								</p>
+								<div class="inputList">
+									<p class="label">Geslacht<abbr title="Required field">*</abbr></p>
+									<ul>
+										<li><label><input type="radio" class="inputRadio" value="lorem ipsum dolor" name="" />Man</label></li>
+										<li><label><input type="radio" class="inputRadio" value="ipsum" name="" />Vrouw</label></li>
+									</ul>
+								</div>
+								<p class="smallInput">
+									<select size="1" class="select" name="" >
+										<option value=""></option>
+										<option value="0">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="1">Hendrerit ac, cursus non, massa aliquam lorem</option>
+										<option value="2">Hendrerit ac, cursus non, massa aliquam lorem</option>
+									</select>
+								</p>
+								<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+								<span class="inlineError">This field is required.</span>
+							</div>
+						</fieldset>
+						<fieldset class="visibleFieldset">
+							<legend>Form sections</legend>
+							<div class="formSection">
+								<p class="label">Names<abbr title="Required field">*</abbr></p>
+								<div class="formSectionContent">
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="formSection">
+								<p class="label">Names<abbr title="Required field">*</abbr></p>
+								<div class="formSectionContent">
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+									</div>
+								</div>
+							</div>
+							<div class="formSection errorArea">
+								<p class="label">Names<abbr title="Required field">*</abbr></p>
+								<div class="formSectionContent">
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+										<span class="inlineError">This field is required.</span>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+										<span class="inlineError">This field is required.</span>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+										<span class="inlineError">This field is required.</span>
+									</div>
+									<div class="oneLiner">
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="text" name="" class="inputText" />
+										</p>
+										<p>
+											<input type="button" class="inputButton" name="" value="Add" />
+										</p>
+										<small class="helpTxt">Hendrerit ac, cursus non, massa aliquam lorem.</small>
+										<span class="inlineError">This field is required.</span>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
