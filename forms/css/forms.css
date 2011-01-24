@@ -60,12 +60,6 @@ textarea[disabled] {
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 3, from(#C4C4C4), to(#F4F4F4));
 }
 
-	/* IE6; class added with optional JS */
-	input.disabledField {
-		color: #999;
-		background-color: #F4F4F4;
-	}
-
 /* Selects */
 
 select {
