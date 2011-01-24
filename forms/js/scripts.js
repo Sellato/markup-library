@@ -9,10 +9,6 @@ $(document).ready(function() {
 			$(this).removeClass('buttonHover');
 		});
 
-		// Adds a disabled class to disabled text fields for styling
-		$('input[type="text"]:disabled, input[type="password"]:disabled, textarea:disabled').each(function(index) {
-			$(this).addClass('disabledField');
-		});
 	};
 
 });

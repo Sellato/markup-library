@@ -730,7 +730,9 @@ a.button:visited {
 
 input.inputSubmit:hover,
 input.inputButton:hover,
+input.buttonHover,
 button:hover,
+button.buttonHover,
 a.button:hover,
 a.button:active,
 a.button:focus {
