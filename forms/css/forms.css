@@ -286,7 +286,7 @@ label,
 		padding-left: 134px; /* This value should be the same as the width value in "Normal width" */
 	}
 
-	/* Left width (horizontal) */
+	/* Left margin (horizontal) */
 
 	.horizontal input.inputSubmit,
 	.horizontal input.inputButton,
@@ -512,7 +512,7 @@ label,
 	/* Form sections */
 
 	.formSection {
-		padding: 0 0 8px;
+		padding: 0 0 8px 0;
 	}
 
 	.formSection:after  { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
