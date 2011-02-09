@@ -454,7 +454,11 @@ label,
 	.horizontal .alignBlocks input.inputSubmit,
 	.horizontal .alignBlocks input.inputButton,
 	.horizontal .alignBlocks button,
-	.horizontal .alignBlocks a.button {
+	.horizontal .alignBlocks a.button,
+	.horizontal .formSectionContent input.inputSubmit,
+	.horizontal .formSectionContent input.inputButton,
+	.horizontal .formSectionContent button,
+	.horizontal .formSectionContent a.button {
 		margin-left: 0;
 	}
 
