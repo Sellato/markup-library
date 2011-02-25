@@ -727,7 +727,6 @@ a.button:focus {
 	background: -moz-linear-gradient(top, #366eac 0%, #6facf1 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#366eac), color-stop(100%,#6facf1));
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#366EAC', endColorstr='#6FACF1',GradientType=0 )chroma(color=#000000);
-	background-color: #2d5c91;
 }
 
 input.inputSubmit[disabled="disabled"],
