@@ -184,7 +184,7 @@ label,
 	overflow: hidden;
 	white-space: nowrap;
 	clear: left;
-	text-overflow: ellipsis
+	text-overflow: ellipsis;
 }
 
 /* Form grid control */
