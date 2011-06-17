@@ -711,6 +711,8 @@ a.button:visited {
 	padding: 3px;
 	cursor: pointer;
 	overflow: visible;
+	white-space: nowrap;
+	text-align: center;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
