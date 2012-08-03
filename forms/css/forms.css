@@ -25,6 +25,7 @@ textarea {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	-webkit-appearance: none;
 }
 
 textarea {
@@ -196,8 +197,17 @@ label,
 	.tinyInput input.inputText,
 	.tinyInput input.inputPassword,
 	.tinyInput input.tinyInput,
-	.tinyInput input.inputDate {
+	.tinyInput input.inputDate,
+	.tinyInput input.inputSearch {
 		width: 16px;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari */
+
+		.tinyInput input.inputSearch {
+			width: 26px;
+		}
+
 	}
 
 	.tinyInput select,
@@ -216,6 +226,14 @@ label,
 		width: 52px;
 	}
 
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari */
+
+		.smallInput input.inputSearch {
+			width: 62px;
+		}
+
+	}
+
 	.smallInput select,
 	.alignBlocks p.smallInput,
 	.alignFields p.smallInput,
@@ -230,6 +248,14 @@ label,
 	input.inputSearch,
 	input.inputDate {
 		width: 124px;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari */
+
+		input.inputSearch {
+			width: 134px;
+		}
+
 	}
 
 	select,
@@ -254,6 +280,14 @@ label,
 		width: 196px;
 	}
 
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari */
+
+		.mediumInput input.inputSearch {
+			width: 206px;
+		}
+
+	}
+
 	.mediumInput select,
 	.alignBlocks p.mediumInput,
 	.alignFields p.mediumInput,
@@ -269,6 +303,14 @@ label,
 	.bigInput input.inputDate,
 	textarea {
 		width: 268px;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari */
+
+		.bigInput input.inputSearch {
+			width: 278px;
+		}
+
 	}
 
 	.bigInput select,
