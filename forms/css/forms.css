@@ -320,6 +320,40 @@ label,
 		width: 278px;
 	}
 
+	/* Full width */
+
+	.fullWidth input.inputText,
+	.fullWidth input.inputPassword,
+	.fullWidth input.tinyInput,
+	.fullWidth input.inputDate,
+	.fullWidth input.inputSearch,
+	.fullWidth textarea,
+	.fullWidth select,
+	.fullWidth input.inputSubmit,
+	.fullWidth input.inputButton,
+	.fullWidth button,
+	.fullWidth a.button {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.horizontal .fullWidth input.inputSubmit,
+	.horizontal .fullWidth input.inputButton,
+	.horizontal .fullWidth button,
+	.horizontal .fullWidth a.button,
+	.fullWidth .horizontal input.inputSubmit,
+	.fullWidth .horizontal input.inputButton,
+	.fullWidth .horizontal button,
+	.fullWidth .horizontal a.button,
+	.fullWidth.horizontal input.inputSubmit,
+	.fullWidth.horizontal input.inputButton,
+	.fullWidth.horizontal button,
+	.fullWidth.horizontal a.button {
+		margin-left: 0;
+	}
+
 	/* Left padding (horizontal) */
 
 	.horizontal .alignBlocks,
